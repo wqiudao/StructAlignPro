@@ -17,11 +17,11 @@ positional arguments:
 
   {makedalidb,pdb2dalidb,comparepdb}
   
-    makedalidb          Create DALI database: Converts a set of PDB files to DALI format numbers for subsequent structural searches.
+    makedalidb  Create DALI database: Converts a set of PDB files to DALI format numbers for subsequent structural searches.
     
-    pdb2dalidb          Compare a PDB file with DALI database.
+    pdb2dalidb  Compare a PDB file with DALI database.
     
-    comparepdb          Compare two PDB files.
+    comparepdb  Compare two PDB files.
     
 options:
 
