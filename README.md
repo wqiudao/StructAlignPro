@@ -4,8 +4,6 @@ This script is designed to optimize the usage of DaliLite.v5 for protein structu
 It provides a simplified interface and enhanced functionalities, making it easier for users to perform structural alignments. This script has been developed with Python version 3
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
-## Author
-wang qiudao (wqiudao@gmail.com)
 ## Date
 2024-09
 ## Usage
