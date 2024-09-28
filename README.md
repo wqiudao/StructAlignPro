@@ -10,8 +10,11 @@ wang qiudao (wqiudao@gmail.com)
 2024-09
 ## Usage
 Usage: StructAlignPro [-h] {makedalidb,pdb2dalidb,comparepdb} ...
+
 Structure Alignment Program
+
 positional arguments:
+
   {makedalidb,pdb2dalidb,comparepdb}
     makedalidb          Create DALI database: Converts a set of PDB files to DALI format numbers for subsequent structural searches.
     pdb2dalidb          Compare a PDB file with DALI database.
