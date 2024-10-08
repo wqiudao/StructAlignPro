@@ -6,6 +6,10 @@ It provides a simplified interface and enhanced functionalities, making it easie
 This project is licensed under the MIT License. See the LICENSE file for more details.
 ## Date
 2024-09
+## Package Dependencies
+dnf install compat-libgfortran-48.x86_64  -y   # requires root privileges
+conda install anaconda::python  -y
+conda install conda-forge::perl -y
 ## Usage
 Usage: StructAlignPro [-h] {makedalidb,pdb2dalidb,comparepdb} ...
 
