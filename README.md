@@ -7,11 +7,11 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 ## Date
 2024-09
 ## Package Dependencies
-dnf install compat-libgfortran-48.x86_64  -y      # requires root privileges
+dnf install compat-libgfortran-48.x86_64       # requires root privileges
 
-conda install anaconda::python  -y
+conda install anaconda::python  
 
-conda install conda-forge::perl -y
+conda install conda-forge::perl 
 ## Usage
 Usage: StructAlignPro [-h] {makedalidb,pdb2dalidb,comparepdb} ...
 
