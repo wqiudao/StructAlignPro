@@ -33,8 +33,42 @@ options:
 </pre>
 
 
+```
+structalignpro makedalidb HEPN_REF_PDB_Cas13_abdhx
+```
+<pre>
+  Generating DALI database from HEPN_REF_PDB_Cas13_abdhx...
+  
+  /data8/StructAlignPro/HEPN_REF_PDB_Cas13_abdhx_dali
+  
+  Done
+</pre>
 
 
+```
+structalignpro pdb2dalidb HEPN_REF_PDB_Cas13_abdhx_dali Cas13a_nc1.pdb 
+```
+
+<pre>
+  Comparing Cas13a_nc1.pdb with database HEPN_REF_PDB_Cas13_abdhx_dali...
+  /data8/StructAlignPro/Cas13a_nc1.pdb
+  /data8/StructAlignPro/StructAlignPro_Cas13a_nc1_2024-11-17_23:51:19_result.txt
+  Done
+</pre>
+
+
+
+
+
+
+```
+structalignpro comparepdb Cas13a_nc1.pdb Cas13a_nc2.pdb 
+```
+<pre>
+  Comparing Cas13a_nc1.pdb with another PDB file  Cas13a_nc2.pdb...
+  /data8/StructAlignPro/StructAlignPro_Cas13a_nc1_vs_Cas13a_nc2_2024-11-17_23:54:06_result.txt
+  Done  
+</pre>
 
 
 
