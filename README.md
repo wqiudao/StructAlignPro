@@ -9,9 +9,11 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 ## Package Dependencies
 dnf install compat-libgfortran-48.x86_64       # requires root privileges
 
-conda install anaconda::python  
-
+conda create -n structalignpro python=3.12  -y
 conda install conda-forge::perl 
+
+
+
 ## Usage
 ```
 structalignpro 
