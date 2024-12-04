@@ -35,7 +35,8 @@ options:
   -h, --help            show this help message and exit
 </pre>
 
-
+### pdb2dalidb
+Use the built-in CAS core library to perform structural comparisons.
 ```
 structalignpro pdb2dalidb test.pdb
 ```
