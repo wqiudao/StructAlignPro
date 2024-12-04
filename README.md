@@ -39,6 +39,7 @@ options:
 ```
 structalignpro pdb2dalidb test.pdb
 ```
+### makedalidb
 Use the subcommand `makedalidb` to create a custom reference structure database.
 
 <pre>
