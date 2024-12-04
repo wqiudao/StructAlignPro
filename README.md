@@ -21,16 +21,15 @@ conda install conda-forge::perl
 structalignpro 
 ```
 <pre>
-usage: StructAlignPro [-h] {makedalidb,pdb2dalidb,comparepdb} ...
+usage: structalignpro [-h] {pdb2dalidb,comparepdb,makedalidb} ...
 
 Structure Alignment Program
 
 positional arguments:
-  {makedalidb,pdb2dalidb,comparepdb}
-    makedalidb          Create DALI database: Converts a set of PDB files to DALI format numbers for subsequent
-                        structural searches.
+  {pdb2dalidb,comparepdb,makedalidb}
     pdb2dalidb          Compare a PDB file with DALI database.
     comparepdb          Compare two PDB files.
+    makedalidb          Create DALI database: Converts a set of PDB files to DALI format numbers for subsequent structural searches.
 
 options:
   -h, --help            show this help message and exit
