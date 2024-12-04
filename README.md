@@ -37,7 +37,7 @@ options:
 
 
 ```
-structalignpro makedalidb HEPN_REF_PDB_Cas13_abdhx
+structalignpro pdb2dalidb test.pdb
 ```
 <pre>
   Generating DALI database from HEPN_REF_PDB_Cas13_abdhx...
