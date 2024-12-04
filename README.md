@@ -51,7 +51,7 @@ structalignpro pdb2dalidb --dali_database  HEPN_REF_PDB_Cas13_abdhx_dali Cas13a_
 Compare two PDB files.
 
 ```
-structalignpro comparepdb Cas13a_nc1.pdb Cas13a_nc2.pdb 
+structalignpro comparepdb test1.pdb test2.pdb 
 
 ```
 
