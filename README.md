@@ -39,7 +39,11 @@ options:
 ```
 structalignpro pdb2dalidb test.pdb
 ```
+Use the subcommand `makedalidb` to create a custom reference structure database.
+
 <pre>
+structalignpro makedalidb HEPN_REF_PDB_Cas13_abdhx
+
   Generating DALI database from HEPN_REF_PDB_Cas13_abdhx...
   
   /data8/StructAlignPro/HEPN_REF_PDB_Cas13_abdhx_dali
