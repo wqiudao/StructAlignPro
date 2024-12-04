@@ -43,7 +43,7 @@ Use the subcommand `makedalidb` to create a custom reference structure database.
 
 ```
 structalignpro makedalidb HEPN_REF_PDB_Cas13_abdhx
-structalignpro pdb2dalidb --dali_database  HEPN_REF_PDB_Cas13_abdhx_dali Cas13a_nc1.pdb 
+structalignpro pdb2dalidb --dali_database  HEPN_REF_PDB_Cas13_abdhx_dali test.pdb 
 ```
 ### comparepdb
 Compare two PDB files.
