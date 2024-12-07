@@ -9,7 +9,8 @@ dnf install compat-libgfortran-48.x86_64       # requires root privileges
 ```
 ```
 conda create -n structalignpro python=3.12  -y
-conda install conda-forge::perl 
+conda install conda-forge::perl  -y
+conda install wqiudao::structalignpro -y
 
 ```
 
