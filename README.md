@@ -37,22 +37,16 @@ options:
 ### pdb2dalidb
 Use the built-in CAS core library to perform structural comparisons.
 ```
-structalignpro pdb2dalidb test.pdb
+casstructstream pdb2dalidb test.pdb
 ```
 ### makedalidb
 Use the subcommand `makedalidb` to create a custom reference structure database.
 
 ```
-structalignpro makedalidb HEPN_REF_PDB_Cas13_abdhx
-structalignpro pdb2dalidb --dali_database  HEPN_REF_PDB_Cas13_abdhx_dali test.pdb 
+casstructstream makedalidb HEPN_REF_PDB_Cas13_abdhx
+casstructstream pdb2dalidb --dali_database  HEPN_REF_PDB_Cas13_abdhx_dali test.pdb 
 ```
-### comparepdb
-Compare two PDB files.
 
-```
-structalignpro comparepdb test1.pdb test2.pdb 
-
-```
 
 
 
